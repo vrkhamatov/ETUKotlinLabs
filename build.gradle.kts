@@ -16,6 +16,7 @@ dependencies {
     testImplementation(kotlin("test"))
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
     implementation("com.google.code.gson:gson:2.9.1")
+    implementation("org.simpleframework:simple-xml:2.7.1")
 }
 
 tasks.test {
